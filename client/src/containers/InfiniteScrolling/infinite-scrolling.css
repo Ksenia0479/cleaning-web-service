@@ -1,0 +1,21 @@
+/* .infinite-scrolling__container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.infinite-scrolling__wrapper {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  padding-right: 35px;
+  box-sizing: content-box;
+}
+ */
+
+.spinner__wrapper {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}

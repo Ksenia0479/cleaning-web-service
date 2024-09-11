@@ -1,0 +1,31 @@
+.section__user .row {
+  display: flex;
+}
+
+.user__box {
+  flex: 1;
+  background-color: #fff;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 10px;
+  border-radius: 3px;
+}
+
+.user__form {
+  padding: 40px 20px;
+  flex: 0 0 70%;
+  margin: 0 auto;
+}
+
+.user__form fieldset {
+  background-color: #fff;
+  padding: 0px;
+}
+
+.user__form .form__btn .btn-action {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.user__form .form__file label {
+  padding: 10px 0px;
+}

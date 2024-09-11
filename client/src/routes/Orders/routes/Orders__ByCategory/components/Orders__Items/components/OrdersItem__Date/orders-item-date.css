@@ -1,0 +1,8 @@
+.order__date {
+  flex: 0 0 210px;
+  margin-right: 10px;
+}
+
+.order__date div:first-child {
+  margin-bottom: 5px;
+}

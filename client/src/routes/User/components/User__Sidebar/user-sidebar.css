@@ -1,0 +1,27 @@
+.user__sidebar-box {
+  position: sticky;
+  top: 0;
+  height: 100%;
+  flex: 0 0 250px;
+  background-color: #fff;
+  padding: 20px;
+  margin-right: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 10px;
+  border-radius: 3px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.user__sidebar-box .avatar__box {
+  margin: 0 auto;
+}
+
+.user__sidebar-box .avatar__box img {
+  width: 120px;
+}
+
+.user__sidebar-box .MuiRating-root {
+  margin-top: 10px;
+  align-self: center;
+}

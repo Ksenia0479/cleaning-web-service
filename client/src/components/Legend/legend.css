@@ -1,0 +1,20 @@
+legend {
+  display: block !important;
+  text-align: center;
+  color: #576169;
+  font-size: 110%;
+  font-weight: 400;
+  word-spacing: 2px;
+  margin-bottom: 30px;
+  text-transform: none;
+}
+
+legend:after {
+  display: block;
+  content: " ";
+  width: 50px;
+  height: 2px;
+  background-color: #52b68d;
+  margin: 0 auto;
+  margin-top: 20px;
+}

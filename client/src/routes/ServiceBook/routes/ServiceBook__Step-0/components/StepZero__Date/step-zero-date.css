@@ -1,0 +1,81 @@
+.section__booking-date {
+  padding: 40px 0px 80px 0px;
+}
+
+.section__booking-date .form__error {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.section__booking-date .MuiPickersStaticWrapper-staticWrapperRoot {
+  flex-direction: row;
+  justify-content: center;
+  overflow: visible;
+  background-color: transparent;
+}
+
+.section__booking-date .MuiPickersBasePicker-container {
+  padding: 10px 40px;
+  border-radius: 8px;
+  border: 1px solid #e8e8e8;
+  box-shadow: 0 0 20px 5px #575e691a;
+  background-color: #fff;
+}
+
+.section__booking-date .MuiTypography-body1,
+.section__booking-date .MuiTypography-body2,
+.section__booking-date .MuiTypography-caption {
+  font-family: "Lato", "Arial", sans-serif;
+}
+
+.section__booking-date .MuiPickersBasePicker-pickerView {
+  min-width: 400px;
+  min-height: 360px;
+}
+
+.section__booking-date .MuiPickersCalendarHeader-switchHeader {
+  margin-bottom: 25px;
+}
+
+.section__booking-date .MuiIconButton-root.Mui-disabled {
+  color: #52b68d80;
+}
+
+.section__booking-date .MuiTypography-body1 {
+  font-weight: 200;
+  color: #858c92;
+}
+
+.section__booking-date .MuiIconButton-root {
+  font-weight: 400;
+  color: #52b68d;
+}
+
+.section__booking-date .MuiPickersCalendarHeader-daysHeader {
+  display: flex;
+  max-height: 16px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.section__booking-date .MuiTypography-caption {
+  font-weight: 400;
+  color: #444;
+}
+
+.section__booking-date .MuiPickersCalendar-week {
+  margin: 5px 0px;
+  justify-content: space-around;
+}
+
+.section__booking-date .MuiPickersDay-dayDisabled p {
+  color: #ccc;
+  font-weight: 100;
+}
+
+.section__booking-date .MuiPickersDay-daySelected {
+  background-color: #52b68d;
+  font-weight: 400;
+
+  color: #fff;
+}

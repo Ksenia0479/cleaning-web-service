@@ -1,0 +1,21 @@
+.order__status .ion-md-checkmark {
+  color: #52b68d;
+}
+
+.order__status .ion-md-time {
+  color: #a8a80f;
+}
+
+.order__status .ion-md-close-circle-outline {
+  color: #ff5054;
+}
+
+.order__status {
+  flex: 0 0 140px;
+  margin-right: 10px;
+  text-transform: capitalize;
+}
+
+.order__status i {
+  margin-right: 5px;
+}

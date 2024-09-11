@@ -1,0 +1,10 @@
+.modal__review-customer-name {
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.modal__review-customer-name div:first-child {
+  font-size: 90%;
+}

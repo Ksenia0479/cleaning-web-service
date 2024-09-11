@@ -1,0 +1,22 @@
+.booking-success__sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 300px;
+}
+
+.booking-success__sidebar .booking-summary {
+  font-size: 60%;
+  margin-right: 0px;
+}
+
+.booking-success__sidebar .booking-summary__header {
+  padding-top: 10px;
+}
+
+.booking-success__sidebar .sidebar__box {
+  padding: 10px 10px 0px 10px;
+}
+
+.booking-success__sidebar .content__section {
+  padding: 10px;
+}

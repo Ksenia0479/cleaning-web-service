@@ -1,0 +1,6 @@
+.companies__box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  flex: 0 0 70%;
+}

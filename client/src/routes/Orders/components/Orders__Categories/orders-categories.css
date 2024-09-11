@@ -1,0 +1,28 @@
+.section__order-categories {
+  padding-bottom: 0px;
+  flex: 0;
+}
+
+.orders__categories-box {
+  font-size: 80%;
+  display: flex;
+  width: 400px;
+}
+
+.categories__item {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: #888;
+}
+
+.category-active {
+  color: #444;
+  border-bottom: 5px solid #52b68d;
+  background-color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: #52b68d2b -1px -1px 5px;
+}

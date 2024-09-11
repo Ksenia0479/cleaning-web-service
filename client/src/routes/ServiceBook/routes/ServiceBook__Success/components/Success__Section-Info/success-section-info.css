@@ -1,0 +1,30 @@
+.section__booking-success h2 {
+  text-transform: none;
+}
+
+.booking-success__wrapper {
+  display: flex;
+}
+
+.booking-success__notification {
+  flex: 0 0 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0px auto;
+  width: 80%;
+  text-align: center;
+  padding: 40px 0px;
+}
+
+.booking-success__notification div:first-child {
+  color: #444;
+  line-height: 150%;
+  margin-bottom: 40px;
+}
+
+.booking-success__notification div:last-child {
+  font-size: 80%;
+  line-height: 120%;
+  color: #908f8f;
+}

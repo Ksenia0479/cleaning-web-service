@@ -1,0 +1,24 @@
+.section__sign-in {
+  display: flex;
+  flex: auto;
+}
+
+.section__sign-in .row {
+  display: flex;
+  justify-content: center;
+}
+
+.section__sign-in .form__box {
+  flex: 0 0 420px;
+}
+
+.section__sign-in .form__box p {
+  font-size: 110%;
+  text-align: center;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+}
+
+.section__sign-in .form__box p:last-child {
+  font-size: 80%;
+}

@@ -1,0 +1,12 @@
+.section__companies {
+  padding-top: 20px;
+  position: relative;
+}
+
+.section__companies a {
+  color: #555;
+}
+
+.section__companies .row {
+  display: flex;
+}

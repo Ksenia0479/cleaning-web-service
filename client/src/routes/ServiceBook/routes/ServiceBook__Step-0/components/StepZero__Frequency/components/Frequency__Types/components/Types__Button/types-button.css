@@ -1,0 +1,19 @@
+.booking-frequency__btn {
+  margin: 20px 0px;
+}
+
+.booking-frequency__btn .btn-ghost {
+  font-size: 80%;
+  text-transform: uppercase;
+  padding: 15px;
+  border: 1px solid #5bb58d;
+  background-color: #fff;
+  color: #5bb58d;
+  box-shadow: 0 0 10px 3px #dbffef;
+  border-radius: 28.75px;
+}
+
+.booking-frequency__btn .btn-ghost:hover {
+  color: #fff;
+  background-color: #5bb58d;
+}

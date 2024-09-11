@@ -1,0 +1,12 @@
+.section__signup-send-confirmation-again .form__box {
+  flex: 0 0 420px;
+}
+
+.section__signup-send-confirmation-again .row {
+  display: flex;
+  justify-content: center;
+}
+
+.section__signup-send-confirmation-again .form__btn {
+  margin-bottom: 0px;
+}

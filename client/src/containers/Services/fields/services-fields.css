@@ -1,0 +1,33 @@
+.services__fields {
+  display: flex;
+  flex: 1;
+  align-items: flex-start;
+  margin-right: 2%;
+  align-items: flex-end;
+}
+
+.field__select {
+  flex: 1;
+  margin-right: 2%;
+}
+
+.field__select .css-yk16xz-control {
+  border-color: rgba(52, 192, 111, 0.1);
+  border-radius: 3px;
+  background: #f7f7f7;
+}
+
+.field__select .css-1hwfws3 {
+  font-weight: 300;
+  font-size: 90%;
+  padding: 6px 30px;
+  cursor: pointer;
+}
+
+.field__select .css-1uccc91-singleValue {
+  color: #555;
+}
+
+.services__fields .form__input {
+  margin-bottom: 0px;
+}

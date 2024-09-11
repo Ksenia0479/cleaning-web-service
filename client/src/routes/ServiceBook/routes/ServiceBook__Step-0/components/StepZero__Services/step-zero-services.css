@@ -1,0 +1,32 @@
+.fieldset__booking-services {
+  padding: 40px 0px;
+}
+
+.booking-services__box {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.booking-services__box .form__error {
+  text-align: center;
+}
+
+.booking-services__box .css-2b097c-container {
+  width: 100%;
+  max-width: 400px;
+
+  box-shadow: 0 0 21px 5px rgba(87, 97, 105, 0.1);
+  font-size: 80%;
+  word-spacing: 1px;
+  line-height: 130%;
+}
+
+.booking-services__box .css-yk16xz-control {
+  padding: 20px;
+}
+
+.booking-services__box .css-1rhbuit-multiValue,
+.booking-services__box .css-12jo7m5 {
+  background-color: #52b68d;
+  color: #fff;
+}

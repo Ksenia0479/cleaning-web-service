@@ -1,0 +1,36 @@
+.fieldset__booking-rooms {
+  padding: 40px 0px;
+}
+
+.booking-rooms__box {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: flex-end;
+}
+
+.booking-rooms__box .form__select-container {
+  align-items: center;
+  flex: 0 0 25%;
+}
+
+.booking-rooms__box .form__select-container:last-child {
+  margin-right: 0px;
+}
+
+.booking-rooms__box .form__error {
+  text-align: center;
+}
+
+.booking-rooms__box .css-2b097c-container {
+  min-width: 350px;
+
+  box-shadow: 0 0 21px 5px rgba(87, 97, 105, 0.1);
+  font-size: 80%;
+  word-spacing: 1px;
+  line-height: 130%;
+}
+
+.booking-rooms__box .css-yk16xz-control {
+  padding: 20px;
+}

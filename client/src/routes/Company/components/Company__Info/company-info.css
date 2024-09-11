@@ -1,0 +1,146 @@
+.modal__profile {
+  flex: 0 0 30%;
+  padding: 0px 10px;
+}
+
+.modal__profile-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e6e6e6;
+  font-size: 90%;
+}
+
+.profile-item__service,
+.profile-item__room {
+  display: flex;
+  align-self: normal;
+  align-items: center;
+  padding-left: 10px;
+  font-size: 80%;
+  text-transform: capitalize;
+}
+
+.profile-item__service i,
+.profile-item__room i {
+  display: inline-block;
+  width: 20px;
+  font-size: 150%;
+  text-align: center;
+  margin-right: 5px;
+  line-height: 120%;
+  vertical-align: middle;
+  color: #52b68d;
+}
+
+.profile-item__room-price {
+  color: #52b68d;
+  font-weight: 400;
+}
+
+.profile-item__room div:first-of-type {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.profile-item__avatar {
+  transform: translate(0%, -50%);
+}
+
+.profile-item__avatar .customized {
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.6);
+  border: 0.25rem solid #fff;
+  background: #fff;
+}
+
+.profile-item__avatar img {
+  width: 70px;
+}
+
+.profile-item__company-name {
+  margin-top: -30px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.profile-item__company-rating {
+  font-size: 110%;
+  margin: 10px 0px;
+}
+
+.profile-item__cleanings {
+  font-size: 80%;
+  background-color: #f3f3f3;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.profile-item__cleanings span {
+  margin-right: 5px;
+}
+
+.modal__profile-btn {
+  display: flex;
+  flex-direction: column;
+  font-size: 90%;
+  margin: 30px 0px;
+}
+
+.modal__profile-btn .form__btn .action {
+  text-transform: none;
+  border-radius: 0px;
+}
+
+.modal__profile-btn .btn.btn-full {
+  margin: 0px 0px 10px 0px;
+}
+
+.modal__profile-btn .btn.btn-ghost,
+.modal__profile-btn .btn.btn-full {
+  border-radius: 0px;
+  flex: 1;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.modal__reviews {
+  max-height: 580px;
+  flex: 1;
+  padding: 0px 10px;
+  font-size: 90%;
+}
+
+.modal__reviews-wrapper {
+  background-color: #f3f3f3;
+  height: 100%;
+  overflow-y: scroll;
+  padding: 20px;
+}
+
+.modal_reviews-item {
+  padding: 10px 0px;
+  border-bottom: 1px solid #fff;
+}
+
+.modal__profile-item .MuiRating-root,
+.modal__review-customer-name .MuiRating-root {
+  font-size: 90%;
+}
+
+.modal__review-customer-name {
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.modal__review-created-at {
+  font-size: 70%;
+  font-weight: 400;
+  margin-bottom: 5px;
+  word-spacing: 1px;
+}

@@ -1,0 +1,23 @@
+.section__booking-step-two {
+  padding: 60px 0px;
+}
+.section__booking-step-two .row {
+  display: flex;
+  width: 100%;
+}
+
+.form__customer-details fieldset {
+  padding: 0px;
+  background-color: transparent;
+}
+
+.section__booking-step-two .sidebar__box {
+  margin: 0px 0px 0px 60px;
+  padding: 0px;
+}
+
+.section__booking-step-two .form__btn {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 20px;
+}

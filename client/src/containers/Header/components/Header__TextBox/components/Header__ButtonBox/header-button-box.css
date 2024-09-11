@@ -1,0 +1,9 @@
+.header__button-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.header__button-box .btn-full {
+  margin-right: 20px;
+}

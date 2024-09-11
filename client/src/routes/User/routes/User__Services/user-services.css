@@ -1,0 +1,15 @@
+.user__form ul {
+  font-size: 90%;
+}
+
+.user__form ul .form__input {
+  padding: 10px 30px;
+}
+
+.user__form ul .form__btn input {
+  padding: 10px 0px;
+}
+
+.user__form .spinner__container {
+  margin-bottom: 40px;
+}

@@ -1,0 +1,7 @@
+.customer {
+  padding-top: 0px;
+}
+
+.customer .form__box {
+  flex: 0 0 60%;
+}

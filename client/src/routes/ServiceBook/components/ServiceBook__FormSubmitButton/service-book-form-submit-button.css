@@ -1,0 +1,22 @@
+.fieldset__booking-buttons {
+  padding: 40px 0px 20px 0px;
+}
+
+.btn-action {
+  display: flex;
+  width: 300px;
+  margin: 0 auto;
+  font-size: 90%;
+  background-color: #ff7275;
+  border-color: #ff7275;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  padding: 20px 0px;
+  text-transform: uppercase;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.btn-action:hover {
+  background-color: #ff5054;
+  border-color: #ff5054;
+}

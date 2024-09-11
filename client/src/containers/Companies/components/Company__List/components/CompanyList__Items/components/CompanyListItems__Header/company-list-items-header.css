@@ -1,0 +1,29 @@
+.company-item__header {
+  display: flex;
+  align-items: center;
+  font-size: 90%;
+  color: #555;
+  font-weight: 400;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.company-item__header div:first-child {
+  display: flex;
+  align-items: center;
+
+  flex: 1;
+}
+
+.company-item__header div:last-child {
+  color: #52b68d;
+}
+
+.company-item__header a:last-child {
+  margin-left: 10px;
+}
+
+.company-item__header img {
+  width: 45px;
+}

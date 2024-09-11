@@ -1,0 +1,52 @@
+.modal__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(62, 62, 62, 0.8);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.modal__box {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 60%;
+  margin: 0 auto;
+}
+
+.modal__order-deny-box {
+  flex: 0 0 40%;
+  font-size: 90%;
+}
+
+.modal__order-details-box {
+  flex: 0 0 50%;
+}
+
+.modal__btn-close {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal__btn-close .ion-ios-close {
+  font-size: 200%;
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.modal__btn-close .ion-ios-close:hover,
+.modal__btn-close .ion-ios-close:active {
+  color: #52b68d;
+}
+
+.modal__info {
+  display: flex;
+  border-radius: 5px;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.6);
+  background-color: #fff;
+}

@@ -1,0 +1,75 @@
+.section__steps {
+  flex: 0;
+  padding: 20px 0px 0px 0px;
+}
+
+.steps__box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 40px;
+
+  background-color: #fff;
+}
+
+.steps__box-step {
+  display: flex;
+  padding: 0px 5px;
+}
+
+.steps__box-step a {
+  pointer-events: none;
+  cursor: default;
+  display: flex;
+  align-items: center;
+  font-size: 70%;
+  color: #999;
+}
+
+.box-step__count {
+  display: block;
+  width: 25px;
+  height: 25px;
+  border: 1px solid #999;
+  color: #999;
+  border-radius: 100%;
+  margin-right: 5px;
+  line-height: 160%;
+  text-align: center;
+}
+
+.box-step__box-active a,
+.box-step__box-completed a {
+  pointer-events: auto;
+  cursor: pointer;
+  color: #52b68d;
+}
+
+.box-step__box-active .box-step__count,
+.box-step__box-completed .box-step__count {
+  border: 1px solid #52b68d;
+  background-color: #52b68d;
+  color: #fff;
+}
+
+.box-step__box-completed .box-step__count i {
+  display: block;
+}
+
+.box-step__count i {
+  display: none;
+  font-size: 200%;
+  position: relative;
+  top: -2px;
+}
+
+.step__box-dots {
+  flex: 1;
+}
+
+.step__box-dots:after {
+  display: block;
+  font-weight: 100;
+  content: " ";
+  border-bottom: 1px dashed #000;
+}

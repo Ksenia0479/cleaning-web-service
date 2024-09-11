@@ -1,0 +1,48 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__nav-main {
+  height: 100vh;
+  background-size: cover;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)),
+    url("../../img/home-min.jpg");
+  background-attachment: fixed;
+}
+
+.header__nav-sticky {
+  background-color: #f2f2f2;
+  z-index: 1;
+}
+
+.header__nav-sticky.signed-in {
+  background-color: #52b68d;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 5px;
+  color: #fff;
+}
+
+.header__nav-sticky.signed-in a,
+.header__nav-sticky.signed-in a:hover {
+  color: #fff;
+}
+
+.header__nav-sticky.signed-in .header__nav-list img {
+  box-shadow: 0px 0px 0rem 2px #fff;
+}
+
+.header__nav-sticky.signed-in .header__nav-list .ghost {
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.header__nav-sticky.signed-in .header__nav-list .ghost:hover {
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #52b68d;
+}
+
+.header__nav-sticky a {
+  color: #555;
+}

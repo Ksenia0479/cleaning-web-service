@@ -1,0 +1,19 @@
+.user__reviews {
+  font-size: 90%;
+  padding: 40px 20px;
+  flex: 1;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.user__reviews .modal__reviews-wrapper {
+  background-color: #fff;
+  flex: 1;
+  border-radius: 3px;
+  overflow-y: hidden;
+}
+
+.user__reviews .modal_reviews-item {
+  border-bottom: 1px solid #e6e6e6;
+}

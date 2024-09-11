@@ -1,0 +1,31 @@
+.orders__button-box {
+  display: flex;
+  flex: 1;
+}
+
+.orders__button-box .form__btn {
+  margin-right: 5px;
+  margin-bottom: 0px;
+  width: 30%;
+  font-size: 80%;
+  flex: 1;
+}
+
+.orders__button-box .form__btn input {
+  border-radius: 3px;
+  padding: 10px 0px;
+  text-transform: capitalize;
+  font-size: 100%;
+}
+
+.orders__button-box .btn.btn-ghost,
+.orders__button-box .btn.btn-action {
+  font-size: 80%;
+  width: 30%;
+  flex: 1;
+  padding: 10px 0px;
+  border-radius: 3px;
+  text-transform: capitalize;
+  margin: 0px 5px 0px 0px;
+  font-weight: 300;
+}

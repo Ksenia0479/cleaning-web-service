@@ -1,0 +1,9 @@
+.user__email-address {
+  color: #888;
+  font-size: 90%;
+  margin-bottom: 20px;
+}
+
+.user__email-address span {
+  margin-left: 10px;
+}

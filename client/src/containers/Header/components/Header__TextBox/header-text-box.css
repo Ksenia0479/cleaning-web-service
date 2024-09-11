@@ -1,0 +1,13 @@
+.header__text-box {
+  position: absolute;
+  top: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__text-box h3 {
+  color: #fff;
+  text-transform: none;
+  font-weight: 100;
+}

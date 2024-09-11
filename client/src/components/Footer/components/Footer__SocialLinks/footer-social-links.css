@@ -1,0 +1,36 @@
+.footer__social-links li a:link,
+.footer__social-links li a:visited {
+  font-size: 110%;
+  color: #888;
+}
+
+.footer__social-links:last-child {
+  margin-right: 0px;
+}
+
+.ion-logo-facebook,
+.ion-logo-instagram,
+.ion-logo-twitter,
+.ion-logo-googleplus {
+  transition: color 0.2s;
+}
+
+.ion-logo-facebook:hover,
+.ion-logo-facebook:active {
+  color: #3b5998;
+}
+
+.ion-logo-instagram:hover,
+.ion-logo-instagram:active {
+  color: #c32aa3;
+}
+
+.ion-logo-twitter:hover,
+.ion-logo-twitter:active {
+  color: #1da1f2;
+}
+
+.ion-logo-googleplus:hover,
+.ion-logo-googleplus:active {
+  color: #ea4335;
+}

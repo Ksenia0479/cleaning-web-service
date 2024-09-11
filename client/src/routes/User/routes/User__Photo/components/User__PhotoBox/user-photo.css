@@ -1,0 +1,22 @@
+.user__photo-box {
+  border: 1px solid rgb(202, 203, 204);
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: rgba(255, 255, 255, 0.63) 0px 2px 0px,
+    rgba(41, 48, 59, 0.15) 0px 1px 2px inset;
+}
+
+.user__photo-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: rgb(242, 243, 245);
+  border: 1px solid rgb(210, 210, 210);
+  height: 100%;
+}
+
+.user__photo-wrapper img {
+  width: 250px;
+  height: auto;
+}

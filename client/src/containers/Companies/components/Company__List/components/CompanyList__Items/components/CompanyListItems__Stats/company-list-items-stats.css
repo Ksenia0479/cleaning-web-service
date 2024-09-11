@@ -1,0 +1,30 @@
+.company-item__stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 0px 10px 0px;
+  margin-bottom: 10px;
+  color: #bbb;
+  font-weight: 400;
+  font-size: 80%;
+}
+
+.company-item__stats div {
+  border-right: 1px solid #e6e6e6;
+}
+
+.company-item__stats div:first-child,
+.company-item__stats div:last-child {
+  text-align: center;
+  align-items: center;
+  padding: 0px 10px;
+  margin: 0 auto;
+  border: 0px;
+}
+
+.company-item__stats div:first-child span {
+  font-size: 100%;
+}
+
+.company-item__stats p {
+  margin-bottom: 10px;
+}

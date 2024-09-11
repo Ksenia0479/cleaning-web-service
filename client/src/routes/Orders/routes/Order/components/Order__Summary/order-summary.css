@@ -1,0 +1,12 @@
+.order__summary {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.order__summary .sidebar__box {
+  padding: 5px 10px 0 10px;
+}
+
+.order__summary .content__section {
+  padding: 10px;
+}

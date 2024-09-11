@@ -1,0 +1,49 @@
+.company-item__btn {
+  display: flex;
+  justify-content: space-between;
+  font-size: 80%;
+  margin: 5px 0px 10px 0px;
+}
+
+.company-item__btn .btn.btn-full,
+.company-item__btn .btn.btn-ghost {
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+
+.company-item__btn .btn.btn-full {
+  background-image: url("../../../../../../../../img/arrow-forward.svg");
+  color: #fff;
+  margin: 0px;
+  background-position-y: center;
+  background-position-x: 80%;
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+
+.company-item__btn .btn.btn-full.selected {
+  background-image: url("../../../../../../../../img/checkmark.svg");
+  background-position-x: 85%;
+  color: #666;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-weight: 400;
+  transition: background-color 0.4s border-color 0.4s color 0.4s
+    background-image 0.4s;
+}
+
+.company-item__btn .btn.btn-full.selected:hover {
+  background-image: url("../../../../../../../../img/close.svg");
+  background-color: #ff7275;
+  border-color: #ff7275;
+  color: #fff;
+}
+
+.company-item__btn .form__btn {
+  margin-bottom: 0px;
+}
+
+.btn__reviews,
+.btn__select {
+  flex: 0 0 49%;
+}

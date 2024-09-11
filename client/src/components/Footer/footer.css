@@ -1,0 +1,24 @@
+footer {
+  background-color: #333;
+  padding: 50px 0px;
+}
+
+footer p {
+  font-size: 70%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer__nav-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.footer__nav-box ul {
+  display: flex;
+}
+
+.footer__nav-box ul li {
+  margin-right: 20px;
+}

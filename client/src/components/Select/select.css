@@ -1,0 +1,19 @@
+.form__select-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.form__select-container .css-yk16xz-control {
+  min-height: 42px;
+}
+
+.form__select-container .error.css-2b097c-container .css-yk16xz-control {
+  border: 1px solid #b6525270;
+  box-shadow: inset 0px 0px 5px 2px #b652522e;
+}
+.form__select-container .success.css-2b097c-container .css-yk16xz-control {
+  border: 1px solid #52b68d6b;
+  box-shadow: inset 0px 0px 5px 2px #34c06f1a;
+}

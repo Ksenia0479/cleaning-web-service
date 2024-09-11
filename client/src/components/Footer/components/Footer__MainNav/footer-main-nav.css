@@ -1,0 +1,11 @@
+.footer__main-nav li a:link,
+.footer__main-nav li a:visited {
+  font-size: 90%;
+  color: #888;
+  transition: color 0.2s;
+}
+
+.footer__main-nav li a:hover,
+.footer__main-nav li a:active {
+  color: #52b68d;
+}

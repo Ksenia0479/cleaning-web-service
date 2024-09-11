@@ -1,0 +1,1 @@
+export const GET_ROOM_OPTIONS = "GET_ROOM_OPTIONS";

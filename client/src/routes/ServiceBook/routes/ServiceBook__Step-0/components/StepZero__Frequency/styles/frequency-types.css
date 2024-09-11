@@ -1,0 +1,29 @@
+.booking-frequency__box-item {
+  box-sizing: border-box;
+  flex: 1;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 14px 5px #5761690d;
+  margin-right: 15px;
+  padding: 25px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.booking-frequency__box-item.box__selected {
+  background-color: #5bb58d;
+
+  color: #fff;
+}
+
+.booking-frequency__box-item.box__selected .btn-ghost {
+  border-color: #fff;
+}
+
+.booking-frequency__box-item.box__selected .btn-ghost:hover {
+  color: #5bb58d;
+  background-color: #fff;
+}

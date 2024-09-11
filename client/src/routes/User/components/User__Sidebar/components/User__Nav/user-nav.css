@@ -1,0 +1,25 @@
+.sidebar__user-nav-list {
+  font-size: 90%;
+  margin-top: 20px;
+}
+
+.sidebar__user-nav-list li a {
+  color: #444;
+}
+
+.sidebar__user-nav-list li {
+  background-color: transparent;
+  color: transparent;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 10px;
+  transition: background-color 0.2s, border-bottom-color 0.2s;
+}
+
+.sidebar__user-nav-list li:last-child {
+  border-bottom: 0px;
+}
+
+.sidebar__user-nav-list li:hover {
+  background-color: #f7f7f7;
+  border-bottom-color: #f7f7f7;
+}

@@ -1,0 +1,28 @@
+.section__order-filters {
+  position: sticky;
+  top: 0;
+
+  font-size: 80%;
+  padding: 0px;
+  flex: 0;
+}
+
+.order-filters__box {
+  display: flex;
+  padding: 0 30px;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  border-top-right-radius: 5px;
+}
+
+.order-filters__box select {
+  padding: 20px 0px;
+}
+.form__orders-filter {
+  display: flex;
+  width: 100%;
+}
+
+.form__orders-filter .sort-menu__dropdown-filters {
+  top: 25px;
+}

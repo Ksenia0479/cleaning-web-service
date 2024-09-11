@@ -1,0 +1,43 @@
+.section__orders {
+  font-size: 80%;
+  padding-top: 0px;
+}
+
+.orders__items-box {
+  background-color: #fff;
+  padding: 20px 30px 20px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  box-shadow: #52b68d2b 0px 3px 5px;
+}
+
+.orders__items-box div:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.order-filters__order-details {
+  flex: 0 0 180px;
+  margin-right: 10px;
+}
+
+.order-filters__order-status {
+  flex: 0 0 140px;
+  margin-right: 10px;
+  text-transform: capitalize;
+}
+
+.order-filters__order-price {
+  flex: 0 0 120px;
+  margin-right: 10px;
+}
+
+.order-filters__order-date {
+  flex: 0 0 210px;
+  margin-right: 10px;
+}
+
+.order-filters__order-services {
+  flex: 0 0 150px;
+  margin-right: 10px;
+}

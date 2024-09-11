@@ -1,0 +1,17 @@
+.booking-frequency__advantages {
+  font-size: 70%;
+  margin-bottom: 20px;
+}
+
+.booking-frequency__advantages i {
+  display: inline-block;
+  font-size: 200%;
+  width: 20px;
+  color: #52b68d;
+}
+
+.advantages__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}

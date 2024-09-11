@@ -1,0 +1,17 @@
+.logo {
+  height: 100px;
+  width: auto;
+}
+
+.header__logo {
+  margin: 20px 0px 10px 0px;
+}
+
+.header__nav-sticky .logo {
+  height: 50px;
+  width: auto;
+}
+
+.header__nav-sticky .header__logo {
+  margin: 10px 0px;
+}

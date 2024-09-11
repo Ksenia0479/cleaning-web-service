@@ -1,0 +1,4 @@
+const REMOVE_ALERT = "REMOVE_ALERT";
+const ADD_ALERT = "ADD_ALERT";
+
+export { ADD_ALERT, REMOVE_ALERT };

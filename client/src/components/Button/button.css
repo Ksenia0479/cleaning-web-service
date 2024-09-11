@@ -1,0 +1,165 @@
+input[type="submit"],
+input[type="button"],
+.form__file label {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex: 0 0 100%;
+  padding: 20px 0px;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #52b68d;
+  background-color: #52b68d;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+input[type="file"] {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+input[type="submit"].sign-up,
+input[type="button"].remove,
+input[type="button"].action {
+  text-transform: uppercase;
+  border: 1px solid #ff7275;
+  background-color: #ff7275;
+}
+
+input[type="button"].remove {
+  background-image: url("../../img/icon--remove.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px auto;
+  cursor: pointer;
+}
+
+input[type="button"].ghost {
+  background-color: transparent;
+  color: #52b68d;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:active,
+input[type="button"]:hover,
+input[type="button"]:active,
+.form__file label:hover,
+.form__file label:active {
+  border: 1px solid #21da84;
+  background-color: #21da84;
+}
+
+input[type="submit"].sign-up:hover,
+input[type="button"].remove:hover,
+input[type="submit"].sign-up:active,
+input[type="button"].remove:active,
+input[type="button"].action:hover,
+input[type="button"].action:active {
+  border: 1px solid #ff5054;
+  background-color: #ff5054;
+}
+
+input[type="button"].ghost:hover,
+input[type="button"].ghost:active {
+  background-color: #52b68d;
+  border: 1px solid #52b68d;
+  color: #fff;
+}
+
+.form__file label {
+  font-size: 90%;
+  cursor: pointer;
+}
+
+.form__file label.success {
+  border: 1px solid #52b68d6b;
+  background-image: url("../../img/checkmark-circle-outline-white.svg");
+  background-repeat: no-repeat;
+  background-position: 97%;
+  background-size: 25px;
+  box-shadow: inset 0px 0px 5px 2px #34c06f1a;
+}
+
+.form__btn,
+.form__file {
+  margin-bottom: 20px;
+}
+
+.form__btn .btn-action {
+  display: flex;
+  width: 300px;
+  margin: 0 auto;
+  font-size: 90%;
+  background-color: #ff7275;
+  border-color: #ff7275;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  padding: 20px 0px;
+  text-transform: uppercase;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.form__btn .btn-action:hover {
+  background-color: #ff5054;
+  border-color: #ff5054;
+}
+
+.form__checkbox {
+  margin-bottom: 20px;
+}
+
+.form__checkbox input[type="checkbox"] {
+  display: none;
+}
+
+.form__checkbox input[type="checkbox"]:disabled {
+  opacity: 0.3;
+}
+
+.form__checkbox input[type="checkbox"] + label::after {
+  content: none;
+}
+
+.form__checkbox input[type="checkbox"]:checked + label::after {
+  content: "";
+}
+
+.form__checkbox label {
+  display: inline-block;
+  position: relative;
+
+  padding-left: 35px;
+}
+
+.form__checkbox label::before,
+.form__checkbox label::after {
+  position: absolute;
+  display: inline-block;
+  content: "";
+}
+
+.form__checkbox label::before {
+  position: absolute;
+  top: -2px;
+  left: 0px;
+  width: 25px;
+  height: 25px;
+  background: #f7f7f7;
+  border-radius: 3px;
+  border: 1px solid rgba(52, 192, 111, 0.1);
+}
+
+.form__checkbox label::after {
+  position: absolute;
+  top: 5px;
+  left: 7px;
+  width: 12px;
+  height: 6px;
+  border-bottom: 2px solid #52b68d;
+  border-left: 2px solid #52b68d;
+  transform: rotate(-45deg);
+}

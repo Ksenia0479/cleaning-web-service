@@ -1,0 +1,46 @@
+.company {
+  padding-top: 0px;
+}
+
+.company input {
+  font-size: 90%;
+}
+
+.company .form__box {
+  flex: 0 0 60%;
+}
+
+.company .form__input,
+.company input[type="button"],
+.company label {
+  padding: 10px 30px;
+}
+
+.company input[type="button"].remove {
+  padding: 10px;
+}
+
+.company .form__input.error,
+.company .form__input.success {
+  background-size: 20px;
+}
+
+.company .services__fields,
+.company .rooms__fields {
+  justify-content: space-between;
+}
+
+.company .services__fields .css-1hwfws3,
+.company .rooms__fields .css-1hwfws3 {
+  padding: 0px 25px;
+  font-size: 90%;
+}
+
+.company .form__select-container {
+  flex: 0 0 55%;
+  margin-right: 0px;
+}
+
+.company .form__item .form__input-container {
+  flex: 0 0 43%;
+}

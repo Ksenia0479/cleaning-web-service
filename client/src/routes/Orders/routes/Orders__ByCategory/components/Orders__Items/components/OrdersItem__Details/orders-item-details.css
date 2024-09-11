@@ -1,0 +1,16 @@
+.order__details {
+  flex: 0 0 180px;
+  margin-right: 10px;
+}
+
+.item__order-number {
+  margin-bottom: 5px;
+}
+
+.item__order-number a {
+  color: #52b68d;
+}
+
+.item__order-created-at {
+  font-size: 80%;
+}

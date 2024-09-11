@@ -1,0 +1,12 @@
+.close-account__text-box {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-account__text-box div {
+  margin-bottom: 10px;
+}

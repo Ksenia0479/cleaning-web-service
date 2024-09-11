@@ -1,0 +1,22 @@
+.form__item {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: flex-end;
+}
+
+.form__item .form__btn {
+  display: flex;
+  flex: 0 0 50px;
+  color: #fff;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+
+.form__item .form__input-container {
+  margin-bottom: 0px;
+}
+
+.form__item .css-yk16xz-control {
+  border: 1px solid rgba(52, 192, 111, 0.1);
+  background: #f7f7f7;
+}

@@ -1,0 +1,8 @@
+.order__sidebar .form__btn {
+  margin-bottom: 10px;
+}
+
+.order__sidebar .btn.btn-action {
+  border-radius: 5px;
+  text-transform: capitalize;
+}

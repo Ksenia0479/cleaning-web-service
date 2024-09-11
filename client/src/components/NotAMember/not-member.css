@@ -1,0 +1,21 @@
+.not-member {
+  display: flex;
+  justify-content: center;
+}
+
+.not-member span {
+  margin-left: 5px;
+}
+
+.not-member span a:link,
+.not-member span a:visited {
+  color: #52b68d;
+  border-bottom: transparent;
+  transition: color 0.2s, border-bottom 0.2s;
+}
+
+.not-member span a:hover,
+.not-member span a:active {
+  color: #3a8a69;
+  border-bottom: 1px solid #3a8a69;
+}

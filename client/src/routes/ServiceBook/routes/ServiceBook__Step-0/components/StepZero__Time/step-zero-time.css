@@ -1,0 +1,57 @@
+.fieldset__booking-time {
+  padding: 40px 0px 40px 0px;
+}
+
+.fieldset__booking-time .form__error {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.fieldset__booking-time .MuiPickersClock-pin,
+.fieldset__booking-time .MuiPickersClockPointer-pointer,
+.fieldset__booking-time .MuiPickersClockPointer-noPoint {
+  background-color: #5bb58d;
+}
+
+.fieldset__booking-time .MuiPickersStaticWrapper-staticWrapperRoot {
+  flex-direction: row;
+  justify-content: center;
+  overflow: visible;
+  background-color: transparent;
+}
+
+.fieldset__booking-time .MuiPickersClockPointer-thumb {
+  border: 14px solid#5bb58d;
+}
+
+.fieldset__booking-time .MuiPickersClock-clock {
+  border: 1px solid #d6d6d6;
+  box-shadow: 0 0 21px 5px rgba(87, 97, 105, 0.1);
+  background-color: #fff;
+}
+
+.fieldset__booking-time .MuiTypography-body1 {
+  font-family: "Lato", "Arial", sans-serif;
+}
+
+.fieldset__booking-time .MuiTypography-body1 {
+  font-size: 90%;
+  color: #555;
+  font-weight: 300;
+}
+
+.fieldset__booking-time .MuiToolbar-root h2:after {
+  display: none;
+}
+
+.fieldset__booking-time .MuiPickersToolbar-toolbar {
+  background-color: transparent;
+}
+
+.fieldset__booking-time .MuiPickersToolbarText-toolbarTxt {
+  color: #52b68d;
+}
+
+.fieldset__booking-time .MuiPickersToolbarText-toolbarBtnSelected {
+  color: #3a8a69;
+}
