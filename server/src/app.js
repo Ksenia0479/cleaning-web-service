@@ -14,7 +14,7 @@ const pushService = require("./pushService");
 
 const app = express();
 
-app.use(cors());
+app.use(cors({ origin: process.env.HOST }));
 app.use(express.json());
 
 //app.use(logger("dev"));
@@ -27,12 +27,12 @@ app.use(orderRouter);
 app.use(subscribersRouter);
 
 // catch 404 and forward to error handler
-app.use(function(req, res, next) {
+app.use(function (req, res, next) {
   next(createError(404));
 });
 
 // error handler
-app.use(function(err, req, res, next) {
+app.use(function (err, req, res, next) {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get("env") === "development" ? err : {};
