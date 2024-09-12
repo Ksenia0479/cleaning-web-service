@@ -1,4 +1,4 @@
-import uuid from "node-uuid";
+import { v4 as uuidv4 } from "uuid";
 import _ from "lodash";
 
 // constants
@@ -16,12 +16,12 @@ const alertsHandlers = {
     return [
       ...state,
       {
-        id: uuid(),
+        id: uuidv4(),
         type,
         message,
         timeOut: 4000,
-        closeOnToastrClick: true
-      }
+        closeOnToastrClick: true,
+      },
     ];
   },
   [REMOVE_ALERT]: (state, action) => {
@@ -30,7 +30,7 @@ const alertsHandlers = {
     return _.filter(state, ({ id: currentId }) => {
       return currentId !== idToBeRemoved;
     });
-  }
+  },
 };
 
 export default createReducer(initialState, alertsHandlers);
