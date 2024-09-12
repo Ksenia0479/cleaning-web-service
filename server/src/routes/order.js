@@ -15,7 +15,7 @@ const convertDateTimeToISO = require("../utils/converDateTimeToISO");
 router.post("/orders", async (req, res) => {
   let {
     body: { order },
-    headers: { host, authorization }
+    headers: { host, authorization },
   } = req;
 
   const token = authorization;
@@ -44,7 +44,7 @@ router.get("/orders", auth, async (req, res) => {
   const { user } = req;
 
   try {
-    await user.populate({ path: "orders" }).execPopulate();
+    await user.populate({ path: "orders" });
 
     const dataToBeOrdered = "orders";
     const orderKeys = ["createdAt"];
@@ -69,11 +69,11 @@ router.get("/orders/:_id", async (req, res) => {
     "frequency",
     "price",
     "processed",
-    "orderNumber"
+    "orderNumber",
   ];
 
   const {
-    params: { _id }
+    params: { _id },
   } = req;
 
   try {
@@ -92,7 +92,7 @@ router.get("/orders/:_id", async (req, res) => {
 router.patch("/orders/:_id/approve", auth, async (req, res) => {
   const {
     headers: { host },
-    params: { _id }
+    params: { _id },
   } = req;
 
   try {
@@ -117,7 +117,7 @@ router.patch("/orders/:_id/deny", auth, async (req, res) => {
     user: { companyName },
     headers: { host },
     body: { message },
-    params: { _id }
+    params: { _id },
   } = req;
 
   try {
@@ -141,7 +141,7 @@ router.patch("/orders/:_id/deny", auth, async (req, res) => {
 router.patch("/orders/:_id/complete", auth, async (req, res) => {
   const {
     user,
-    params: { _id }
+    params: { _id },
   } = req;
 
   try {
