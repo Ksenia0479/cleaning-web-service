@@ -24,16 +24,16 @@ const pushService = cron.schedule("*/60 * * * * *", async () => {
     const user = await User.findOne({ _id: subscriber, isAuthorized: true });
 
     if (user) {
-      await user.populate({ path: "orders" }).execPopulate();
+      await user.populate({ path: "orders" });
 
-      _.map(user.orders, async order => {
+      _.map(user.orders, async (order) => {
         let {
           date,
           time,
           processed: { status },
           isNotificationPushed,
           _id,
-          orderNumber
+          orderNumber,
         } = order;
 
         const scheduledDate = convertDateTimeToISO({ date, time });
@@ -47,9 +47,9 @@ const pushService = cron.schedule("*/60 * * * * *", async () => {
             image: "",
             title: `Order Number: #${orderNumber}`,
             text: "Cleaning service will be arrived in 2 hours",
-            url: `${process.env.HOST}/orders/future?id=${_id}`
+            url: `${process.env.HOST}/orders/future?id=${_id}`,
           });
-          webpush.sendNotification({ endpoint, keys }, payload).catch(err => {
+          webpush.sendNotification({ endpoint, keys }, payload).catch((err) => {
             console.error(err.stack);
           });
           order.isNotificationPushed = true;
@@ -61,5 +61,5 @@ const pushService = cron.schedule("*/60 * * * * *", async () => {
 });
 
 module.exports = {
-  pushService
+  pushService,
 };

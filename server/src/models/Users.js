@@ -233,7 +233,7 @@ userSchema.statics.modifyAvatar = async (avatar) => {
 };
 
 userSchema.statics.getCompanyTotalCleans = async (company) => {
-  await company.populate({ path: "orders" }).execPopulate();
+  await company.populate({ path: "orders" });
   const cleans = _.filter(company.orders, { completed: true });
   return cleans.length;
 };
