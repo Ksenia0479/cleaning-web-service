@@ -1,5 +1,5 @@
 const request = require("supertest");
-const app = require("../app");
+const app = require("../src/app");
 const User = require("../src/models/user");
 
 const { setupDatabase } = require("./fixtures/db");
@@ -13,7 +13,7 @@ test("Should sign up a new user by email address", async () => {
       firstName: "Alex",
       lastName: "Chervonaya",
       contact: "80296263050",
-      password: "LqFB41112!"
+      password: "LqFB41112!",
     })
     .expect(201);
 
@@ -32,7 +32,7 @@ test("Should sign up a new user by phone number", async () => {
       firstName: "Alex",
       lastName: "Zapotylok",
       contact: "al2ex@bam-boo.eu",
-      password: "LqFB41112!"
+      password: "LqFB41112!",
     })
     .expect(201);
 
