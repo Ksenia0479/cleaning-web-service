@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const cleaningServiceAPI = axios.create({
-  baseURL: `https://cleaning-web-service-server.vercel.app`,
+  baseURL: `http://localhost:4000`,
 });
 
 export { cleaningServiceAPI };
