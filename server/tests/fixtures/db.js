@@ -8,17 +8,17 @@ const userOne = {
   firstName: "userOne",
   lastName: "userOne",
   contact: { email_address: "test@text.com" },
-  password: hashedUserOnePassword
+  password: hashedUserOnePassword,
 };
 
 const userTwoId = mongoose.Types.ObjectId();
-const hashedUserTwoPassword = "LqFB41112!";
+const hashedUserTwoPassword = "qweasdzxc123!";
 const userTwo = {
   _id: userTwoId,
   firstName: "userTwo",
   lastName: "userTwo",
-  contact: { phone_number: "80296263059" },
-  password: hashedUserTwoPassword
+  contact: { phone_number: "80334653842" },
+  password: hashedUserTwoPassword,
 };
 
 const setupDatabase = async () => {
