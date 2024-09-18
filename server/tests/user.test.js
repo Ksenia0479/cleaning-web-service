@@ -11,9 +11,9 @@ test("Should sign up a new user by email address", async () => {
     .post("/users/create")
     .send({
       firstName: "Alex",
-      lastName: "Chervonaya",
-      contact: "80296263050",
-      password: "LqFB41112!",
+      lastName: "Smith",
+      contact: "4865674",
+      password: "qweasdzxc123!",
     })
     .expect(201);
 
@@ -22,7 +22,7 @@ test("Should sign up a new user by email address", async () => {
   expect(user).not.toBeNull();
 
   //Assert the password is hashed successfully
-  expect(user.password).not.toBe("LqFB41112!");
+  expect(user.password).not.toBe("qweasdzxc123!");
 });
 
 test("Should sign up a new user by phone number", async () => {
@@ -30,9 +30,9 @@ test("Should sign up a new user by phone number", async () => {
     .post("/users/create")
     .send({
       firstName: "Alex",
-      lastName: "Zapotylok",
-      contact: "al2ex@bam-boo.eu",
-      password: "LqFB41112!",
+      lastName: "Smith",
+      contact: "al2ex@gmail.com",
+      password: "qweasdzxc123!",
     })
     .expect(201);
 
@@ -41,5 +41,5 @@ test("Should sign up a new user by phone number", async () => {
   expect(user).not.toBeNull();
 
   //Assert the password is hashed successfully
-  expect(user.password).not.toBe("LqFB41112!");
+  expect(user.password).not.toBe("qweasdzxc123!");
 });
